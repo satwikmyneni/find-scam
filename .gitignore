@@ -1,0 +1,9 @@
+virtual/
+*.dll
+*.pkl
+*.h5
+__pycache__/
+*.pyc
+.DS_Store
+.env
+git add README.md
