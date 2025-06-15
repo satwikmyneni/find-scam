@@ -121,10 +121,14 @@ if uploaded_file:
         ax.imshow(wc, interpolation='bilinear')
         ax.axis("off")
         st.pyplot(fig)
-
     if show_shap:
         st.subheader("📊 SHAP Explainability")
-        get_shap_plot(df)
+        selected_index = st.selectbox(
+            "Select a job posting to explain:",
+            range(len(df)),
+            format_func=lambda x: f"Job {x+1}: {df.iloc[x]['title'][:50]}..."
+    )
+    get_shap_plot(df, selected_index)
 
 
     st.markdown("<div class='footer'>🚀 Built by Satwik for the ANVESHAN Hackathon 2025 • IITG 🧠</div>", unsafe_allow_html=True)
