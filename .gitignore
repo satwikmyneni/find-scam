@@ -4,6 +4,8 @@ virtual/
 *.h5
 __pycache__/
 *.pyc
+!model.pkl
+!tfidf.pkl
 .DS_Store
 .env
 git add README.md
