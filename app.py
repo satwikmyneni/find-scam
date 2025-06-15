@@ -122,7 +122,7 @@ if uploaded_file:
         st.pyplot(fig)
 
 
-    st.markdown("<div class='footer'>🚀 Built by Satwik for the ANVESHAN Hackathon 2025 • IITG 🧠</div>", unsafe_allow_html=True)
+    st.markdown("<div class='footer'>🚀 Built by Data Whisperers for the ANVESHAN Hackathon 2025 • IITG 🧠</div>", unsafe_allow_html=True)
 
 else:
     st.info("👈 Please upload a CSV file to begin fraud detection.")
