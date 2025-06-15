@@ -32,6 +32,7 @@ spot-the-scam/
 │ ├── explainability.py # SHAP explainability code
 │ └── model.py # (Optional) model utilities
 
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📊 Dataset Info
@@ -89,6 +90,7 @@ Paste or upload job descriptions
 Instantly detect if a job is fake or not
 View a SHAP summary of important words contributing to the decision
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **⚙️ Tech Used**
@@ -101,6 +103,7 @@ View a SHAP summary of important words contributing to the decision
 •Pandas, Matplotlib
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 **Future Scope**
 •Classify job roles like internship, marketing, IT, etc.
