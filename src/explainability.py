@@ -1,4 +1,11 @@
 # src/explainability.py
+try:
+    import shap
+    SHAP_AVAILABLE = True
+except ImportError:
+    SHAP_AVAILABLE = False
+    import warnings
+    warnings.warn("SHAP not installed. Some explanations will be limited.")
 import shap
 import matplotlib.pyplot as plt
 import streamlit as st
